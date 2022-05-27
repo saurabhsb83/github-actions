@@ -9,7 +9,7 @@ public class HelloController {
     @GetMapping("/hello")
     public String getMessage() {
 
-        return "Hello World from the spring application !";
+        return "Hello World from the spring application - Version2 !";
 
     }
 }
